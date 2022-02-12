@@ -1,0 +1,193 @@
+.simg{
+height: 150px;
+width: 250px;
+margin: 40px;
+}
+.location{
+cursor: pointer;
+margin:20px 60px;
+position: absolute;
+    top: 0;
+    right: 0;
+border-radius: 2px;
+}
+.cylinderbtn:focus {     
+    background-color:dodgerblue;    
+}
+.cylinderbtn{
+background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.symptoms{
+margin:50px  -10px;
+} 
+.first-graph{
+height: 150px;
+width: 250px;
+margin: 10px  -40px;
+}
+.bar{
+height: 150px;
+width: 250px;
+margin: -\20px 40px;
+}
+.right-div{
+height: 750px;
+width: 350px;
+  position:fixed;
+    top: 0;
+    right: 0;
+background-color:white;
+border-radius: 2px;
+background-color: #ddd;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 120px;
+  border-radius: 16px;
+}
+.left-bar{
+margin:35px 60px;
+height: 730px;
+width: 200px;
+  position: absolute;
+    top: 0;
+    left: 0;
+background-color:dodgerblue;
+ border: 2px solid white;
+  border-top-left-radius: 50px 20px ;
+border-bottom-left-radius: 50px 20px;
+}
+.dashboard{
+margin:30px;
+padding:20px;
+cursor: pointer;
+}
+
+.img-fluid{
+cursor: pointer;
+margin:90px;
+width: 50px;
+height:auto;
+}
+
+.fourth-icon{
+margin:50px;
+
+cursor: pointer;
+}
+
+.mid{
+margin-left:20vw;
+margin-bottom: 10vw;
+position: fixed;
+}
+/* .world{
+
+display: flex;
+margin-top: 100PX;
+height: 400px;
+width: 600px;
+border-top-right-radius: 30px;
+border-bottom-right-radius:30px; */
+/* border-right: 10%;
+} */
+.virus{
+margin:50px;
+}
+.map-div{
+width: 188px;
+height: 170px;
+
+cursor: pointer;
+position:fixed;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
+background-color:dodgerblue;
+margin:210px;
+margin-top:85px;
+border:2px solid white;
+}
+.searchinput{
+border:2px solid black;
+color: black;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 20px;
+cursor: pointer;
+border-radius: 10px;
+width: 250px;
+
+}
+
+.all-info{
+width:450px;
+height:447px;
+/* margin-left:10%; */
+overflow-y:scroll;
+margin-top: -75px;
+background-color: dodgerblue;
+padding: 10px;
+position: fixed;
+}
+.all-info::-webkit-scrollbar{
+display: none;
+}
+
+.color-red{
+color: red;
+}
+.color-voilet{
+color: brown;
+}
+.color-green{
+color:forestgreen;
+}
+
+/* .side2{
+float:left; 
+background:Red;
+width:25%;
+height:280px;
+display :flex;
+flex-direction: row;
+} */
+/* .mapHoverIn:hover{
+ background-color:white;
+width:200px;
+height:95px;
+border-bottom-left-radius:20px;
+border-top-left-radius: 20px;
+} */
+/* .option-map:active{
+background-color:white
+} */
+.map-hover{
+margin:30px;
+padding:20px;
+cursor: pointer;
+}
+.btn-btn-light{
+padding:5px;
+margin:15px;
+width:140px;
+border-radius:15px;
+background-color:dodgerblue;
+
+}
+/* .btn-btn-light:focus{
+background-color:white;
+
+} */
