@@ -10,7 +10,7 @@ const continentAction = () => async (dispatch) => {
         dispatch({type: CONTINENT_API_REQUEST})
 
         const {data} = await axios.get('https://corona.lmao.ninja/v2/continents?yesterday=true')
-        console.log('get continent api run')
+        // console.log(results.data)
 
         dispatch({type: CONTINENT_API_SUCCESS, payload: data})
     } catch (error) {
